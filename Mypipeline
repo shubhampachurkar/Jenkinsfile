@@ -18,6 +18,13 @@ pipeline {
                 echo 'Test App'
             }
         }
+          stage('Unit Test')
+        {
+            steps
+            {
+                echo 'Unit Test App'
+            }
+        }
          stage('Deployd')
         {
             steps
