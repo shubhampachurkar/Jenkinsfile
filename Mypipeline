@@ -32,5 +32,13 @@ pipeline {
                 echo 'Deploy App'
             }
         }
+        
+         stage('Op & Main')
+        {
+            steps
+            {
+                echo 'Op & Main App'
+            }
+        }
     }
 }
